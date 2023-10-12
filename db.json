@@ -1,0 +1,52 @@
+{
+  "menu": [
+    {
+      "img": "img/tabs/1.png",
+      "alt": "usual",
+      "title": "Plan “Usual”",
+      "descr": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nesciunt facere, sequi exercitationem praesentium ab cupiditatebeatae debitis perspiciatis itaque quaerat id modi corporis delectus ratione nobis harum voluptatum in.",
+      "price": 10
+    },
+    {
+      "img": "img/tabs/2.jpg",
+      "alt": "plan",
+      "title": "Plan “Premium”",
+      "descr": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nesciunt facere, sequi exercitationem praesentium ab cupiditatebeatae debitis perspiciatis itaque quaerat id modi corporis delectus ratione nobis harum voluptatum in.",
+      "price": 20
+    },
+    {
+      "img": "img/tabs/3.jpg",
+      "alt": "vip",
+      "title": "Plan “VIP”",
+      "descr": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nesciunt facere, sequi exercitationem praesentium ab cupiditatebeatae debitis perspiciatis itaque quaerat id modi corporis delectus ratione nobis harum voluptatum in.",
+      "price": 30
+    }
+  ],
+  "qulpinisa": [
+    {
+      "name": "Khusan Davronov",
+      "phone": "+37122004561",
+      "id": 1
+    },
+    {
+      "name": "Fayoz Rashidov",
+      "phone": "912501001",
+      "id": 2
+    },
+    {
+      "name": "Bob1r Ashurov",
+      "phone": "910880710",
+      "id": 3
+    },
+    {
+      "name": "Khusan Davronov",
+      "phone": "37122004561",
+      "id": 4
+    },
+    {
+      "name": "Asl Rashidov",
+      "phone": "37122004561",
+      "id": 5
+    }
+  ]
+}
