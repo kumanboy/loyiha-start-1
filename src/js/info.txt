@@ -1,0 +1,75 @@
+loyihamizga endi biz npm i -y commandasini beramiz
+
+json-server o'rnatamiz:  npm i json-server -D
+
+json-server vazifasi serverla bilan praktika qilishga ishlashga yordam beradi
+
+hamma imglarimizni db.json filega qo'yib bolgach xampp yurgizamiz hamda
+
+json-server --watch db.json commandasini beramiz linuxda [npx json-server --watch db.json]
+
+ESDA saqlang endi projectimiz ishga tushirmoqchi bolsak 1chi xampp yoki mammp ishga tushiramiz 2chi esa json-serverni
+
+Asynch/Await
+
+undan song fetch kodimizda php filemiz orniga ozimizni apimizni qo'yamiz http://localhost:3000/request
+
+universal asynxron funksiya yaratamiz
+
+async function postData(url,data) {
+    const res = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-type': 'application-json'
+        }
+        body: data
+    }
+    return await res.json()
+    }
+}
+
+
+            //      postData('http://localhost:3000/request', JSON.stringify(obj))
+            //     .then((data) => {
+            //         console.log(data)
+            //         showThanksModal(msg.success)
+            //         statusMessage.remove()
+            //     })
+            //     .catch(() => {
+            //         showThanksModal(msg.failure)
+            //     })
+            //     .finally(() => {
+            //         form.reset()
+            //     })
+
+
+           objectni massivega aylantirish ucun entries() methodi ishlatiladi. kodlarni kuchaytiramiz
+            Bu holatdan
+
+            const formData = new FormData(form)
+            const obj = {}
+                       formData.forEach((val, key) => {
+                           obj[key] = val
+                       })
+
+            const formData = new FormData(form)
+
+            const json= (Object.fromEntries(formData.entries()))
+
+            //      postData('http://localhost:3000/request', json)
+
+            //Cardlarimiz uchun alohida funksiya yozamiz yani db.jsondan malumotlarni olamiz
+
+
+webpack o'rnatamiz
+
+terminalda npm i webpack webpack-cli kamandasini beramiz
+
+so'ngra webpack.config,js degan file ochamiz
+
+config kodlarni qoyamiz hamda src papka ochamiz va js papkamizni src papkamiz ichiga qoyamiz
+undan song esa src papkamiz ichida modules degan papka ochamiz va kerakli modullarga ajratib script js filedagi
+kodlarimizni kochirib chiqamiz. kochirib bo'lib npx webpack kamandasini beramiz
+
+songra index.html filedagi script.js orniga bundle.js filemiz qoyamiz
+
